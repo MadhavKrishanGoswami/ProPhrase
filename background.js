@@ -1,4 +1,4 @@
-const apiKey = "//Enter your API key here";
+const apiKey = 'YOUR_OPENAI_API_KEY';
 chrome.tabs.onActivated.addListener((tab) => {
   console.log("background.js installed in new tab");
   if (tab.url?.startsWith("chrome://")) return undefined;
