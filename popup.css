@@ -1,0 +1,68 @@
+body {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: #40184b;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+.author {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.author-name {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.github-link {
+  color: #007bff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}

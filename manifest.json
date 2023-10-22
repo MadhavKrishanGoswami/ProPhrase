@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ProPhrase",
+  "description": "Perfect your words effortlessly with AI!",
+  "version": "1.0",
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": {
+      "16": "images/Pro Phrase.png",
+      "24": "images/Pro Phrase.png",
+      "32": "images/Pro Phrase.png"
+    },
+    "default_title": "ProPhrase",
+    "default_popup": "popup.html"
+  }
+}
